@@ -61,7 +61,7 @@ public class Main extends Application {
         Label label2  = new Label("Print out the most frequently appearing words in Edgar Allen Poe's 'TheRaven'");
         Button button1 = new Button("Get top 20 words");
         button1.setOnAction(e -> {
-                GameUI gui = new GameUI();
+                TopWordsUI gui = new TopWordsUI();
             try {
                 gui.start(primaryStage);
             } catch (IOException ex) {
@@ -70,12 +70,14 @@ public class Main extends Application {
         });
 
         //Set up the view
+
         VBox vbLeft = new VBox(20);
         vbLeft.setPadding(new Insets(10,10,10,30));
         vbLeft.getChildren().addAll(label1,link,label2,button1,vBox);
         scene1 = new Scene(vbLeft,500,200);
 
         //Display the content
+        vbLeft.getStylesheets().add("main.css");
         window.setTitle("Text Analyzer");
         window.setScene(scene1);
         window.show();

@@ -1,0 +1,175 @@
+package sample;
+
+import javafx.application.Application;
+import javafx.scene.Cursor;
+import javafx.scene.Scene;
+import javafx.scene.control.TextArea;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.*;
+
+/**
+ * GameUI Reads from "TheRaven by Edgar Allen Poe and
+ * displays the 20 most frequently occurring words in descending order.
+ */
+public class TopWordsUI extends Application {
+    Stage window;
+    Scene scene2;
+
+    //Create 2 ArrayLists for the words and count of frequency of each word.
+    ArrayList<String> words = new ArrayList<>();
+    ArrayList<Integer> frequency = new ArrayList<>();
+
+
+    //Open and read a file.
+    FileInputStream reader;
+    {
+        try {
+            reader = new FileInputStream("src/TextAnalyzer.txt");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+    Scanner file;
+
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+
+    @Override
+    public void start(Stage primaryStage) throws IOException {
+        window = primaryStage;
+        StackPane layout3 = new StackPane();
+        TextArea textField = new TextArea();
+
+        /**
+         * Sets up the reading of the file and then performs word identification and frequency of the word tasks.
+         * Then adds the word to the words ArrayList & count to the frequency ArrayList.
+         */
+
+        file = new Scanner(reader);
+
+        ArrayList<String> words = createWordArray(file);
+        ArrayList<Integer> frequency = createFrequencyArray(file);
+        LinkedHashMap<String,Integer> myMap = myMap(words,frequency);
+        LinkedHashMap<String, Integer> mySortedMap = mySortedMap(myMap);
+        LinkedHashMap<String, Integer> myReverseSortedMap = myReverseSortedMap(mySortedMap);
+
+        //Get the highest 20 words and their count.
+        int i = 1;
+        for(String  item: myReverseSortedMap.keySet()){
+            if(i <= 20) {
+                textField.appendText( item + " = " + myReverseSortedMap.get(item) + "\n");
+                i++;
+            }
+        }
+
+        //Close file open/read tools.
+        file.close();
+        reader.close();
+
+
+        textField.selectHome();
+        textField.deselect();
+
+        //Display content
+        layout3.getChildren().add(textField);
+        layout3.setCursor(Cursor.NONE);
+        layout3.setId("text-area");
+        layout3.getStylesheets().add("main.css");
+        scene2 = new Scene(layout3,600,380);
+        window.setTitle("MOST FREQUENTLY APPEARING WORDS IN DESCENDING ORDER");
+        window.setScene(scene2);
+        window.show();
+
+    }
+/*
+    //Creata an arrayList of Strings containing each word to the
+    public ArrayList<String> createWordArray() throws IOException {
+        while (file.hasNext()) {
+            String next = file.next().toLowerCase().replaceAll("[^a-zA-Z0-9]", "");
+            if (words.contains(next)) {
+                int indexer = words.indexOf(next);
+                frequency.set(indexer, frequency.get(indexer) + 1);
+            } else {
+                words.add(next);
+                frequency.add(1);
+            }
+            //Close read tool.
+            reader.close();
+        }
+        return words;
+    }
+*/
+    //Creata an arrayList of Strings containing each word to the
+    public ArrayList<String> createWordArray(Scanner file1) throws IOException {
+        while (file1.hasNext()) {
+            String next = file1.next().toLowerCase().replaceAll("[^a-zA-Z0-9]", "");
+            if (words.contains(next)) {
+                int indexer = words.indexOf(next);
+                frequency.set(indexer, frequency.get(indexer) + 1);
+            } else {
+                words.add(next);
+                frequency.add(1);
+            }
+            //Close read tool.
+            reader.close();
+        }
+        return words;
+    }
+
+
+
+    public ArrayList<Integer> createFrequencyArray(Scanner file) throws IOException {
+        while (file.hasNext()) {
+            String next = file.next().toLowerCase().replaceAll("[^a-zA-Z0-9]", "");
+            if (words.contains(next)) {
+                int indexer = frequency.indexOf(next);
+                frequency.set(indexer, frequency.get(indexer) + 1);
+            } else {
+                words.add(next);
+                frequency.add(1);
+            }
+            //Close read tool.
+            reader.close();
+        }
+        return frequency;
+    }
+
+    //Linked Hash Map of words(key) and count(value).
+    public LinkedHashMap<String,Integer> myMap(ArrayList<String> words, ArrayList<Integer> frequency){
+        //Linked Hash Map of words(key) and count(value).
+        LinkedHashMap<String, Integer> myMap = new LinkedHashMap<>();
+        for(int i = 0; i < words.size(); i++) {
+            myMap.put(words.get(i), frequency.get(i));
+        }
+        return myMap;
+    }
+
+    //Use Entry.comparingByValue to sort entries.
+    public LinkedHashMap<String,Integer> mySortedMap(LinkedHashMap<String, Integer> myMap) {
+        LinkedHashMap<String, Integer> mySortedMap = new LinkedHashMap<>();
+        myMap.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByValue())
+                .forEachOrdered(x -> mySortedMap.put(x.getKey(), x.getValue()));
+
+        return mySortedMap;
+    }
+
+    //Use Comparator.reverseOrder() for reverse ordering.
+    public LinkedHashMap<String, Integer> myReverseSortedMap(LinkedHashMap<String, Integer> mySortedMap) {
+        LinkedHashMap<String, Integer> myReverseSortedMap = new LinkedHashMap<>();
+        mySortedMap.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .forEachOrdered(x -> myReverseSortedMap.put(x.getKey(), x.getValue()));
+
+        return myReverseSortedMap;
+    }
+}

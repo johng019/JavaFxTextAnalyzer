@@ -1,6 +1,7 @@
 package sample;
 
 import javafx.application.Application;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.StackPane;
@@ -8,7 +9,6 @@ import javafx.stage.Stage;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -29,7 +29,7 @@ public class ReadTheRaven extends Application {
         TextArea textField = new TextArea();
 
         //Open and read a file.
-        FileInputStream reader = new FileInputStream("TextAnalyzer.txt");
+        FileInputStream reader = new FileInputStream("src/TextAnalyzer.txt");
         Scanner file = new Scanner(reader);
 
         //Sets up the reading of the file and then performs word identification and frequency of the word tasks.
@@ -46,6 +46,9 @@ public class ReadTheRaven extends Application {
 
         //Display content
         layout2.getChildren().add(textField);
+        layout2.setAlignment(Pos.CENTER);
+        layout2.setId("text-area");
+        layout2.getStylesheets().add("main.css");
         scene3 = new Scene(layout2,600,380);
         window.setTitle("The Raven by Edgar Allen Poe");
         window.setScene(scene3);
