@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/sample/ReadFromRavenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/sample/TopWordsUITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaFxTextAnalyzer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFxTextAnalyzer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAnalyzer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextAnalyzer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxTextAnalyzer/META-INF/JavaFxTextAnalyzer.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxTextAnalyzer/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxTextAnalyzer/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxTextAnalyzer/sample/GameUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxTextAnalyzer/sample/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxTextAnalyzer/sample/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxTextAnalyzer/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxTextAnalyzer/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxTextAnalyzer/sample/PrintAnswer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxTextAnalyzer/sample/ReadTheRaven.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxTextAnalyzer/sample/ReadTheRaven.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/GameUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/TopWordsUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/PrintAnswer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ReadTheRaven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ReadTheRaven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/sample/TopWordsUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/sample/TopWordsUITest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,49 +60,32 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3990461">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/sample/TopWordsUI.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="102" column="30" lean-forward="true" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-17">
-                  <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/sample/TopWordsUITest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="49">
-                  <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/sample/TopWordsUITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-455">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/sample/ReadFromRavenTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -159,16 +124,16 @@
         <option value="$PROJECT_DIR$/tests/sample/Test1.java" />
         <option value="$PROJECT_DIR$/tests/sample/ReadFromRavenTest.java" />
         <option value="$PROJECT_DIR$/src/sample/ReadTheRaven.java" />
-        <option value="$PROJECT_DIR$/tests/sample/TopWordsUITest.java" />
         <option value="$PROJECT_DIR$/src/sample/TopWordsUI.java" />
+        <option value="$PROJECT_DIR$/tests/sample/TopWordsUITest.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="799" />
-    <option name="y" value="-1078" />
-    <option name="width" value="2576" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1278" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1599" />
     <option name="height" value="1066" />
   </component>
   <component name="ProjectId" id="1okYFm7VgXTRcMLLTmMIHQ9saAX" />
@@ -269,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TopWordsUITest.createWordArray">
+  <component name="RunManager" selected="JUnit.ReadFromRavenTest">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -324,6 +289,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadFromRavenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaFxTextAnalyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sample" />
+      <option name="MAIN_CLASS_NAME" value="sample.ReadFromRavenTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopWordsUITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaFxTextAnalyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sample" />
+      <option name="MAIN_CLASS_NAME" value="sample.TopWordsUITest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TopWordsUITest.createFrequencyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaFxTextAnalyzer" />
       <extension name="coverage">
@@ -355,46 +358,6 @@
       <option name="PACKAGE_NAME" value="sample" />
       <option name="MAIN_CLASS_NAME" value="sample.TopWordsUITest" />
       <option name="METHOD_NAME" value="createWordArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopWordsUITest.testReadFromAnInvalidPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaFxTextAnalyzer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sample" />
-      <option name="MAIN_CLASS_NAME" value="sample.TopWordsUITest" />
-      <option name="METHOD_NAME" value="testReadFromAnInvalidPath" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopWordsUITest.testReadFromTargetRelativePath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaFxTextAnalyzer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sample" />
-      <option name="MAIN_CLASS_NAME" value="sample.TopWordsUITest" />
-      <option name="METHOD_NAME" value="testReadFromTargetRelativePath" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -437,11 +400,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TopWordsUITest.createWordArray" />
+        <item itemvalue="JUnit.ReadFromRavenTest" />
+        <item itemvalue="JUnit.TopWordsUITest" />
         <item itemvalue="JUnit.TopWordsUITest.createFrequencyArray" />
+        <item itemvalue="JUnit.TopWordsUITest.createWordArray" />
         <item itemvalue="Application.TopWordsUI" />
-        <item itemvalue="JUnit.TopWordsUITest.testReadFromTargetRelativePath" />
-        <item itemvalue="JUnit.TopWordsUITest.testReadFromAnInvalidPath" />
       </list>
     </recent_temporary>
   </component>
@@ -460,24 +423,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TopWordsUITest_createWordArray - 2021.03.21 at 23h 25m 49s.xml">
-      <configuration name="TopWordsUITest.createWordArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopWordsUITest_createFrequencyArray - 2021.03.21 at 23h 27m 21s.xml">
-      <configuration name="TopWordsUITest.createFrequencyArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopWordsUITest_createFrequencyArray - 2021.03.21 at 23h 29m 35s.xml">
-      <configuration name="TopWordsUITest.createFrequencyArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopWordsUITest_createFrequencyArray - 2021.03.21 at 23h 34m 26s.xml">
-      <configuration name="TopWordsUITest.createFrequencyArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopWordsUITest_createWordArray - 2021.03.21 at 23h 34m 49s.xml">
-      <configuration name="TopWordsUITest.createWordArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopWordsUITest_createFrequencyArray - 2021.03.21 at 23h 35m 43s.xml">
-      <configuration name="TopWordsUITest.createFrequencyArray" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TopWordsUITest_createFrequencyArray - 2021.03.21 at 23h 37m 17s.xml">
       <configuration name="TopWordsUITest.createFrequencyArray" configurationId="JUnit" />
     </history-entry>
@@ -490,18 +435,36 @@
     <history-entry file="TopWordsUITest_createFrequencyArray - 2021.03.21 at 23h 41m 50s.xml">
       <configuration name="TopWordsUITest.createFrequencyArray" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TopWordsUITest_createWordArray - 2021.03.21 at 23h 56m 52s.xml">
+      <configuration name="TopWordsUITest.createWordArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopWordsUITest_createWordArray - 2021.03.21 at 23h 56m 54s.xml">
+      <configuration name="TopWordsUITest.createWordArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopWordsUITest - 2021.03.21 at 23h 57m 21s.xml">
+      <configuration name="TopWordsUITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopWordsUITest_createFrequencyArray - 2021.03.21 at 23h 59m 14s.xml">
+      <configuration name="TopWordsUITest.createFrequencyArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopWordsUITest - 2021.03.21 at 23h 59m 54s.xml">
+      <configuration name="TopWordsUITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadFromRavenTest - 2021.03.22 at 00h 03m 28s.xml">
+      <configuration name="ReadFromRavenTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="766" y="-1088" width="2576" height="1066" extended-state="6" />
+    <frame x="1278" y="-1080" width="1599" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Learn" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" weight="0.09578697" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.19688109" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -510,8 +473,8 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3108253" />
-      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.46087888" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3108253" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.46087888" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -553,73 +516,43 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613834831516">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613834831516" />
-    <state x="677" y="362" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614424233227">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="677" y="362" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614424233227" />
-    <state x="709" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1614714329015">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="709" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614714329015" />
-    <state x="2638" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1614790816825">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2638" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614790816825" />
-    <state x="2586" y="261" key="FileChooserDialogImpl" timestamp="1614790814531">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="731" y="151" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614714238455" />
-    <state x="2586" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614790814531" />
-    <state width="1877" height="26" key="GridCell.Tab.0.bottom" timestamp="1614790885954">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1860" height="28" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614786912172" />
-    <state width="1877" height="26" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614790885954" />
-    <state width="1877" height="26" key="GridCell.Tab.0.center" timestamp="1614790885954">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1860" height="28" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614786912172" />
-    <state width="1877" height="26" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614790885954" />
-    <state width="1877" height="26" key="GridCell.Tab.0.left" timestamp="1614790885954">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1860" height="28" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614786912172" />
-    <state width="1877" height="26" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614790885954" />
-    <state width="1877" height="26" key="GridCell.Tab.0.right" timestamp="1614790885954">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1860" height="28" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614786912172" />
-    <state width="1877" height="26" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614790885954" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1613840741788">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613840741788" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1613840741788">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613840741788" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1613840741788">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613840741788" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1613840741788">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613840741788" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1613850496186">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613850496186" />
-    <state x="2360" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613834895022" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1614788312273">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614788312273" />
-    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613831963154" />
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state x="677" y="362" key="#com.intellij.fileTypes.FileTypeChooser" />
+    <state x="677" y="362" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" />
+    <state x="709" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" />
+    <state x="709" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" />
+    <state x="2638" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" />
+    <state x="2638" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state x="2586" y="261" key="FileChooserDialogImpl" />
+    <state x="731" y="151" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" />
+    <state x="2586" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state width="1877" height="26" key="GridCell.Tab.0.bottom" />
+    <state width="1860" height="28" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="26" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state width="1877" height="26" key="GridCell.Tab.0.center" />
+    <state width="1860" height="28" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="26" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state width="1877" height="26" key="GridCell.Tab.0.left" />
+    <state width="1860" height="28" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="26" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state width="1877" height="26" key="GridCell.Tab.0.right" />
+    <state width="1860" height="28" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="26" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state x="440" y="94" key="SettingsEditor" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" />
+    <state x="2360" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" />
+    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -632,19 +565,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tests/sample/TopWordsUITest.java</url>
-          <line>73</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tests/sample/TopWordsUITest.java</url>
-          <line>64</line>
+          <line>60</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tests/sample/TopWordsUITest.java</url>
-          <line>70</line>
+          <line>66</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
@@ -705,13 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="204" column="61" selection-start-line="204" selection-start-column="61" selection-end-line="204" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/sample/ReadFromRavenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -865,13 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -879,20 +798,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/sample/TopWordsUITest.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/TopWordsUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="15">
+          <caret line="102" column="30" lean-forward="true" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/TopWordsUI.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="102" column="30" lean-forward="true" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
+        <state relative-caret-position="-17">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/sample/ReadFromRavenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/sample/TopWordsUITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-455">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
